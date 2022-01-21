@@ -7,6 +7,8 @@ casual.define('user', () => ({
   id: casual.uuid,
   email: casual.email,
   password,
+  username: casual.username,
+  location: casual.city,
   createdAt: casual.moment,
   updatedAt: casual.moment,
 }))
